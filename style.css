@@ -1,0 +1,37 @@
+body{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    margin: -100px 0 0  -180px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        font-weight: 150px;
+    }
+    div.buttons {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+        margin-top: 10px;
+    }
+    
+    button{
+        padding: 10px 40px;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: transparent;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:first-child{
+        background-color: green;
+    }
+    button:nth-child(2) {
+    background-color: red;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
